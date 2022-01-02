@@ -1,0 +1,389 @@
+@charset "utf-8";
+@keyframes test {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+
+}
+
+@media (min-width: 601px){
+
+
+	/*共通部分
+	----------------------------------------------*/
+	body{
+		font-family: "Yu Gothic Medium";
+		animation: test 2s;
+	}
+	.wrapper{
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 5%;
+	}
+	.flex{
+		display: flex;
+		justify-content: space-between;
+	}
+	a{
+		text-decoration: none;
+	}
+	h1{
+		margin-top: 10px;
+		writing-mode: vertical-rl;
+		font-size: 10rem;
+		color: #000000;
+	}
+	h1:hover{
+		color: #696969;
+	}
+	h2{
+		font-size: 6rem;
+		letter-spacing: 2.5rem;
+		font-family: 'philosopher',serif;
+		margin: 10px;
+		position: sticky;
+	}
+	article{
+		width: 30%;
+		position: sticky;
+		top: 0;
+		height: 100%;
+	}
+	aside{
+		width: 70%;
+	}
+
+	footer{
+		background: #000000;
+		text-align: center;
+		padding: 20px 0;
+		width: 100%;
+		margin-top: 50px;
+		position: absolute;
+		top: 100%;
+	}
+	footer p{
+	    color: #ffffff;
+	    font-size: 0.875rem;
+	}
+	/*top
+	---------------------------------------------*/
+	.boxes{
+		position: relative;
+	}
+	.box1{
+		z-index: 1;
+		width: 200px;
+		height: 200px;
+		background-color: #ffffff;
+		position: absolute;
+		left: 50px;
+		border: 4px solid #000000;
+	}
+	.box2{
+		z-index: 2;
+		width: 250px;
+		height: 300px;
+		background-color: #ffffff;
+		position: absolute;
+		left: 200px;
+		top: 100px;
+		border: 5px solid #000000;
+	}
+	.box3{
+		z-index: 1;
+		width: 200px;
+		height: 200px;
+		background-color: #ffffff;
+		position: absolute;
+		left: 400px;
+		top: 300px;
+		border: 3px solid #000000;
+	}
+	.box4{
+		z-index: 1;
+		width: 100px;
+		height: 100px;
+		background-color: #dcdcdc;
+		position: absolute;
+		left: 80%;
+		top: 50px;
+		border: 2px solid #000000;
+		transform: translateX(-200px);
+		transition: transform 4s;
+	}
+	.box5{
+		z-index: 1;
+		width: 100px;
+		height: 100px;
+		background-color: #696969;
+		position: absolute;
+		left: 0px;
+		top: 350px;
+		border: 1px solid #000000;
+		transform: translateX(150px);
+		transition: transform 4s;
+	}
+	.box1,
+	.box3{
+		text-align: center;
+		padding-top: 70px;
+		font-size: 1.3rem;
+		color: #000000;
+	}
+	.box2{
+		text-align: center;
+		padding-top: 130px;
+		font-size: 2rem;
+		color: #000000;
+	}
+	.box1:hover{
+		background-color: #fff000;
+		transition: background-color 2s;
+		transform: scale(1.1,1.1);
+	}
+	.box2:hover{
+		background-color: #009bc6;
+		transition: background-color 2s;
+		transform: scale(1.1,1.1);
+	}
+	.box3:hover{
+		background-color: #ff2599;
+		transition: background-color 2s;
+		transform: scale(1.1,1.1);
+	}
+	.title:hover{
+		color: #ffffff;
+	}
+	/*about me
+	----------------------------------*/
+	h3{
+		font-size: 1.7rem;
+		text-align: center;
+	}
+	p{
+		font-size: 1.2rem;
+	}
+	.relative{
+		position: relative;
+	}
+	.me,
+	.skill{
+		width: 300px;
+		height: 300px;
+		/*border: 3px solid black;*/
+	}
+	.me{
+		 background:#009bc6;
+	  	border-radius: 80% 30% 50% 50%/50%;
+	  	position: absolute;
+	  	left: 350px;
+	  	top: 100px;
+	  	text-align: center;
+	  	border: 2px solid #000000;
+	}
+	.skill{
+		background: #fc2;
+	 	border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+	 	position: absolute;
+	 	left: 500px;
+	 	top: 350px;
+	 	border: 2px solid #000000;
+	}
+	.me-img{
+		height: 500px;
+		border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+	 	position: absolute;
+	 	left:0px;
+	 	top: ;
+	 	border: 2px solid #000000;
+	}
+	.study{
+		text-align: center;
+	}
+	h3{
+		margin-top: 5px;
+	}
+	/*portfolio
+	--------------------------------------------------*/
+	h4{
+		font-size: 3rem;
+		letter-spacing: 1rem;
+	}
+	.margin{
+		margin-top: 40px;
+	}
+	.emau-img{
+		border: 1px solid black;
+	}
+
+}
+
+/*モバイル版
+-------------------------------------------*/
+@media (max-width: 600px){
+body{
+	animation-name: fade;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+
+	h1{
+		writing-mode: vertical-rl;
+		writing-mode: none;
+		font-size: 4.5rem;
+		color: #000000;
+	}
+	h2{
+		margin: 5px;
+		font-size: 2.8rem;
+		letter-spacing: 0.5rem;
+		margin: 5px;
+		color: #000000;
+	}
+	.flex{
+		display: flex;
+	}
+	article{
+		width: 20%;
+		position: sticky;
+		top: 0;
+		height: 100%;
+	}
+	aside{
+		width: 80%;
+		padding-left: 20px;
+	}
+
+	.box1{
+		z-index: 1;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		left: 120px;
+		top: 90px;
+		border: 1px solid #000000;
+		color: #000000;
+	}
+	.box2{
+		z-index: 2;
+		width: 110px;
+		height: 120px;
+		position: absolute;
+		left: 200px;
+		top: 160px;
+		border: 1px solid #000000;
+	}
+	.box3{
+		z-index: 1;
+		width: 95px;
+		height: 95px;
+		position: absolute;
+		left: 130px;
+		top: 260px;
+		border: 1px solid #000000;
+	}
+
+	.box1,
+	.box2,
+	.box3{
+		text-decoration: none;
+		color: #000000;
+		text-align: center;
+	}
+	.box1{
+		padding-top: 32px;
+	}
+	.box2{
+		padding-top: 45px;
+	}
+	.box3{
+		padding-top: 32px;
+	}
+	a:hover{
+		color: #696969;
+	}
+	.box4{
+		z-index: 1;
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		left: 210px;
+		top: 70px;
+		border: 1px solid #000000;
+	}
+	.box5{
+		z-index: 1;
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		left: 100px;
+		top: 220px;
+		border: 1px solid #000000;
+	}
+
+	@keyframes fade {
+		0%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 1;
+		}
+
+	}
+
+	/* about me */
+	.me-img{
+		text-align: center;
+		height: 200px;
+		border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+		left:0px;
+		top: ;
+		border: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+p{
+	font-size: 0.8rem;
+	padding-bottom: 15px;
+}
+/* portfolio */
+.emau-img{
+	width: 100%;
+	border: 1px solid black;
+}
+/* contact */
+iframe{
+	width: 100%;
+}
+
+footer{
+	background: #696969;
+	text-align: center;
+	padding: 20px 0;
+	width: 100%;
+	margin-top: 50px;
+	position: absolute;
+	top: 100%;
+}
+footer p{
+		color: #ffffff;
+		font-size: 0.875rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}/* media */
