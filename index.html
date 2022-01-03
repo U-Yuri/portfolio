@@ -13,30 +13,110 @@
 
 <body>
 	<div class="wrapper">
-	<header class="flex">
-	<article>
-		<a href="index.html">
-		<h1>UEZONO</h1>
-		</a>
-	</article>
+		<header>
+			<a id="menu-button">≡</a>
+			<ul id="menu-list" class="main-nav">
+				<li><a href="index.html">Top</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#works">Works</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</header>
 
-	<aside>
-		<h2>Portfolio</h2>
-		<div class="boxes">
-			<a class="box1" href="about-me.html"><span class="title">About Me</span></a>
-			<a class="box2" href="portfolio.html"><span class="title">Portfolio</span></a>
-			<a class="box3" href="contact.html"><span class="title">Contact</span></a>
-			<div class="box4"></div><!-- box4 -->
-			<div class="box5"></div><!-- box5 -->
-		</div><!-- boxes -->
-	</aside>
-	</header>
+	<div class="flex1">
+
+		<article>
+				<a href="index.html">
+				<h1>UEZONO</h1>
+				</a>
+		</article>
+
+		<aside>
+				<h2>Portfolio</h2>
+				<div class="flex">
+					<div class="shadow">
+						<img class="top-img"src="me.jpg" alt="ゆりの画像">
+						<div class="shape"></div>
+					</div><!--shadow-->
+					<p class="top-text">
+						レスポンシブ時のみのメニューや<br>
+						縦文字の設定の仕方、画像の切り抜き<br>
+						画像やテキストのポジションが大変でした。<br>
+						レスポンシブ対応デザインでの見やすさを<br>
+						特に工夫しました。<br>
+						よかったら見ていってください。
+					</p>
+			  	</div><!--flex-->
+
+
+				<div id="works">
+					<div class="sub-title"><span>Works</span></div>
+					<h3>ウェブサイト</h3>
+					<a href="../エマフ/index.html">
+					<img class="emau-img"src="emau.jpg">
+					</a>
+					<p>店名：emau（エマフ）<br>
+						友人のアロマトリートメント店のWEBサイトを作成しました。<br>
+						こだわった点は、現在営業中か閉店中かを分かりやすい部分に表示しお客様に利用しやすいよう工夫しました。<br>
+					使用言語：HTML/CSS/JavaScript</p>
+
+					<h3>その他</h3>
+					<div class="wrapper grid">
+						<div class="item">
+							<img src="cat.jpg" alt="作品">
+						</div>
+						<div class="item">
+							<img src="trip.jpg" alt="作品">
+						</div>
+						<div class="item">
+							<img src="eng.jpg" alt="作品">
+						</div>
+
+					</div><!-- grid -->
+
+			</div><!--works-->
+			<div id="about">
+				<div class="sub-title"><span>About</span></div>
+				<div class="about-flex">
+				<img class="face-img" src="face.jpg" alt="プロフィール写真">
+					<div class="about-text">
+						<h4>NAME</h4>
+						<p>上園　ゆり</p>
+						<h4>HOBBY</h4>
+						<p>魚釣り、キャンプ、旅行</p>
+						<h4>SKILL</h4>
+						<p>HTML5  /  CSS  /  Photoshop  /  Illustrator</p>
+					</div><!--about-text-->
+				</div><!--about-flex-->
+		</div><!--id-about-->
+
+
+			<div id="contact">
+				<div class="sub-title"><span>Contact</span></div>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfxtNByKZvdqPZMhonJHXzkUmfIYh8EdBF5S6lgJz9QlrHbQ/viewform?embedded=true" width="640" height="407" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+			</div><!--id-contact-->
+		</aside>
+</div><!--flex1-->
 </div><!--wrapper-->
+
 <footer>
 	<div class="wrapper">
-	<p><small>&copy; 2021 UEZONO</small></p>
+	<p><small>&copy; 2022 UEZONO</small></p>
 	</div>
 </footer>
 
+<script>
+	var button = document.getElementById('menu-button');
+
+
+	button.onclick = function() {
+		console.log('move');
+
+		var list = document.getElementById('menu-list');
+		list.classList.toggle('open');
+	}
+</script>
+
 </body>
+
 </html>
