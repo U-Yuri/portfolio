@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+
+body{
+	font-family: "Yu Gothic Medium";
+	background-color: #d6c299;
+	margin: 0;
+}
+h1{
+	font-size: 5rem;
+	font-family: 'philosopher',serif;
+}
+rt{
+	font-size: 1rem;
+}
+header{
+	padding: 0;
+	background-color: #ffffff;
+	height: 150px;
+}
+
+img{
+	width: 100%;
+}
+.wrapper{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+}
+
+.flex{
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.content p{
+	margin: 0;
+}
+#now{
+	font-size: 1.5rem;
+	color: #ab0f50;
+	font-weight: bold;
+}
+.post-date{
+	background: #ab0f50;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	font-size: 1.625rem;
+	text-align: center;
+	padding-top: 10px;
+}
+.post-date span{
+	font-size: 1rem;
+	display: block;
+	border-top: 1px rgba(255, 255, 255, .5) solid;
+	padding-top: 6px;
+	width: 60%;
+	margin: 0 auto;
+}
+.open{
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+.grand-open{
+	font-size: 3rem;
+	padding-left: 20px;
+	font-family: 'philosopher',serif;
+}
+.main-wrapper{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+}
+article{
+	width: 74%;
+}
+h2{
+	border-left: 10px solid rgba(64, 39, 23, 1);
+	border-bottom: 2px solid rgba(64, 39, 23, 1);
+	margin: 50px 0 20px;
+}
+.sub{
+	font-size: 1.5rem;
+	padding-bottom: 15px;
+}
+h3{
+	color: #ab0f50;
+	margin-bottom: 7px;
+}
+.sub-image{
+	width: 330px;
+	height: 200px;
+	margin: 10px;
+}
+.grid{
+	display: grid;
+	gap: 26px;
+	grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+	margin-top: 5%;
+}
+.pink{
+	color: #ab0f50;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+.last-emau{
+	font-size: 4rem;
+	font-family: 'philosopher',serif;
+	padding-left: 1rem;
+}
+.otoiawase{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menuhyou{
+	margin-left: 20px;
+}
+.menuhyou p{
+	padding-left: 1rem;
+}
+.adress p{
+	padding-left: 1rem;
+}
+
+/*サイドバー部分
+------------------------------------*/
+aside{
+	width: 22%;
+	position: sticky;
+	top: 0;
+	height: 100%;
+}
+nav{
+	margin-top: 30px;
+}
+.main-nav{
+	list-style: none;
+}
+.main-nav a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.button{
+	font-size: 1rem;
+	background-color: #ab0f50;
+	display: block;
+	width: 100%;
+	height: 60px;
+	padding: 10px;
+	border-radius: 6px;
+}
+.button:hover{
+	background: #dc8ba7;
+}
+
+
+/*footer
+------------------------------------*/
+footer{
+	background: #402717;
+	text-align: center;
+	padding: 20px 0;
+	width: 100%;
+	margin-top: 50px;
+}
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/*モバイル版
+-------------------------------------------*/
+@media (max-width: 600px){
+	body{
+		max-width: 100%;
+	}
+	.content{
+		font-size: 0.5rem;
+		padding: 40px 30px 0 0;
+	}
+	.grand-open{
+		font-size: 2rem;
+	}
+	.main-wrapper{
+	flex-direction: column;
+	}
+	.flex{
+		flex-direction: column;
+	}
+	.otoiawase{
+		flex-direction: column;
+	}
+	article{
+		width: 100%;
+	}
+	.topimg p{
+	font-size: 0.5rem;
+	position: absolute;
+    right: 40%;
+    bottom: 60%;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1.38rem;
+	}
+	.post-date{
+	background: #ab0f50;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 0.5rem;
+	text-align: center;
+	padding-top: 10px;
+}
+.post-date span{
+	font-size: 0.5rem;
+	display: block;
+	border-top: 1px rgba(255, 255, 255, .5) solid;
+	padding-top: 6px;
+	width: 60%;
+	margin: 0 auto;
+}
+.sub-image{
+	width: 280px;
+	height: 200px;
+}
+
+.flex{
+	margin: 0;
+}
+aside{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+}/*メディアクエリの終わり*/
