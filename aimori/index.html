@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>愛守病院</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- js -->
+  <link rel="stylesheet" href="vegas.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script>
+$(function(){
+  $('#top').vegas({
+    slides: [
+     { src: 'img/artur-tumasjan-qLzWvcQq-V8-unsplash.jpg' },
+     { src: 'img/national-cancer-institute-tl447mekwuQ-unsplash.jpg' },
+      { src: 'img/aditya-romansa-5zp0jym2w9M-unsplash.jpg' },
+     { src: 'img/fortop.jpg' },
+    ],
+     delay: 7000,
+     timer: false,
+     transitionDuration: 3000
+  });
+});
+</script>
+
+  </head>
+  <body>
+    <header>
+      <div class="header-flex">
+      <a class="top-bt" href="index.html">
+      <h1>医療法人こころ会　愛守病院</h1>
+    </a>
+
+    <p class="js-text"><span id="now" >ここに営業中か閉店か表示</span></p>
+
+  		<p>☎フリーダイヤル<br>
+  			<span>0120-000-000</span>
+  		</p>
+       </div>
+       <nav>
+      <ul class="main-nav">
+        <li>
+          <a class="menu-bt" href="forcustomer.html">ご来院される方へ</a>
+        </li>
+        <li>
+          <a class="menu-bt" href="sinryouka.html">診療科・部門案内</a>
+        </li>
+        <li>
+          <a class="menu-bt" href="about.html">当院について</a>
+        </li>
+        <li>
+          <a class="menu-bt" href="access.html">アクセス</a>
+        </li>
+      </ul>
+    </nav>
+    </header>
+    <div id="top" class="back">
+      <div class="flex">
+      <div class="left">
+      <h2>あなたの命に寄り添う医療</h2>
+      <h3>患者様ひとりひとりの声に耳を傾け<br>
+      あなたの人生に寄り添った医療を提供します。</h3>
+      <p class="yakan">夜間救急受付電話番号</p>
+      <div class="fone">
+        <p>☎099-0000-0000</p>
+      </div>
+      <div class="osirasenowaku">
+        <p>お知らせ</p>
+        <p class="line">2022.1.1　ここにテキストが入ります。</p>
+      </div><!-- osirase-->
+      </div><!-- left -->
+
+      <div class="right">
+      <div class="sinnryoujikann">
+        <p class="sinnryoujikanntaitle">診療時間</p>
+        <p>受付時間：8:00～18:00まで</p>
+        <table class="eigyoujikan">
+          <tr>
+            <th></th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+           <th>日</th>
+          </tr>
+          <tr>
+            <td class="time">8:00～12:30</td>
+            <td>〇</td>
+            <td>〇</td>
+            <td>〇</td>
+            <td>休</td>
+            <td>〇</td>
+            <td>〇</td>
+            <td>休</td>
+          </tr>
+          <tr>
+            <td class="time">14:00～18:00</td>
+            <td>〇</td>
+            <td>〇</td>
+            <td>〇</td>
+            <td>休</td>
+            <td>〇</td>
+            <td>〇</td>
+            <td>休</td>
+          </tr>
+        </table>
+      </div><!-- sinnryoujikann -->
+      </div><!-- rigt -->
+      </div><!-- flex -->
+    </div><!--back-->
+
+      <div class="wrapper">
+
+      	<div class="flex2">
+      		<img class="korona" src="korona.jpg" alt="ウイルスの画像">
+      		<div class="text1">
+      			<p>熱が37.5度以上ある方は<br>
+      			まずは発熱外来専用ダイヤルにてご相談ください。</p>
+      		<p class="fone3">☎0000-00-0000</p>
+      		</div>
+      	</div>
+      	<aside>
+      		<div class="wrapper grid">
+      		  	<a  class="button" href="drspeach.html">
+      				<img class="icon" src="icon/dr.png" alt="先生イラスト">
+      				<p>院長よりご挨拶</p>
+      			</a>
+            <a class="button" href="about.html">
+              <img class="icon" src="icon/hospital.png" alt="病院イラスト">
+              <p>当院について</p>
+            </a>
+      			<a class="button" href="hospitalization.html">
+      				<img class="icon" src="icon/touinn.png" alt="案内イラスト">
+      				<p>入院について</p>
+      			</a>
+      			<a class="button" href="sinryouka.html">
+      				<img class="icon" src="icon/cho.png" alt="診療科イラスト">
+      				<p>診療科について</p>
+      			</a>
+      	</div><!-- grid -->
+      	</aside>
+
+        <div class="rihabili">
+          <div class="rihabiri-left">
+          <p class="rihabili-text">リハビリテーション <span class="kigou">／</span></p>
+          <p>リハビリテーション利用においては<br>診察が必要になります。</p>
+          </div>
+          <div class="button-iti">
+          <a href="rehabili.html" class="Btn">
+          <span class="Btn-Text">ご案内　→</span>
+          </a>
+          </div>
+          
+
+        </div><!-- rihabili -->
+        <h4>愛守だより</h4>
+        <div class="koramu">
+        <p><span class="date">2022.1.1</span>　あけましておめでとうございます。今年は1月4日より通常営業いたします。</p>
+        <p><span class="date">2022.1.1</span>　あけましておめでとうございます。今年は1月4日より通常営業いたします。</p>
+        <p><span class="date">2022.1.1</span>　あけましておめでとうございます。今年は1月4日より通常営業いたします。</p>
+        <p><span class="date">2022.1.1</span>　あけましておめでとうございます。今年は1月4日より通常営業いたします。</p>
+        </div>
+
+      	</div><!-- wrapper -->
+
+
+
+  <footer>
+    <div class="footer-flex">
+
+      <div class="f-left">
+      <h1>医療法人こころ会　愛守病院</h1>
+      <p>住所：〒890-0045 鹿児島県鹿児島市武１丁目１</p>
+      <p>電話番号：0120-000-000</p>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1LpURVsvVpgT1hX1MNzj5v6Oz67Y&ehbc=2E312F" width="300px" height="200px"></iframe>
+      </div><!-- akusesu -->
+      <div class="f-right">
+        <p class="uketuke">受付時間</p>
+        <p>●初診 月～金 8:30～11:00<br>
+           ●再診 月～金 8:30～15:00<br>
+            (ただし、診療科ごとに異なる)※詳しくは診療科まで<br>
+           ●面会時間：13:00〜20:00<br>
+           ●休診日：木曜日、日曜日、祝日、年末年始<br>
+            ※ただし、救命救急センターでは、交通事故・その他重篤救急患者については、24時間受付をしております。</p>
+     </div><!-- time -->
+   </div><!-- footer-flex -->
+   <p class="pri"><small>&copy; Aimori Hospital</small></p>
+  </footer>
+
+
+
+<script>
+  // var date = new Date();
+  var date = new Date("2021-12-23T12:00");
+
+   var x = document.getElementById('now');
+     var y =date.getHours();
+   var z =date.getDay();
+
+   if((z===4)|| (z===7)){
+    x.textContent="休診日";
+   }else if((y >=8)&& (y<= 18)){
+    x.textContent="診療中";
+   }else {
+    x.textContent="診療時間外";
+  }
+
+</script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,810 @@
+@charset "utf-8";
+@keyframes test {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+
+
+
+}
+	body{
+	font-family: "Yu Gothic Medium";
+	line-height: 1.7;
+	animation: test 1.5s;
+}
+
+/*header内*/
+.js-text{
+	padding-top: 15px;
+}
+h1{
+	padding: 15px;
+}
+header{
+  background-color:white;
+}
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+}
+span{
+	font-size: 2rem;
+	color:  #add8e6;
+}
+p{
+	text-decoration: none;
+}
+
+.main-nav{
+	width: 100%;
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-evenly;
+	text-transform: uppercase;
+	list-style: none;
+	background-color: #5bc8ac;
+}
+.main-nav li{
+	margin: 0;
+	background-color: #5bc8ac;
+}
+.main-nav li:hover{
+	background-color: #add8e6;
+}
+.main-nav a{
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: white;
+}
+.main-nav a:hover{
+background-color: #add8e6;
+}
+
+.back{
+  background-image: url(top.jpg);
+  background-size: cover;
+  height: 600px;
+  background-attachment: fixed
+}
+.top-bt{
+	text-decoration: none;
+	color: black;
+}
+
+
+.left{
+  padding-left: 100px;
+	width: 75%;
+}
+.left p{
+	color: white;
+}
+.right{
+	width: 25%;
+}
+
+.left,
+.right{
+  padding-top: 20px;
+}
+
+.flex{
+	display: flex;
+  width: 95%;
+}
+.yakan{
+	font-size: 1.5rem;
+}
+.fone p{
+	width: 200px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 5%;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.osirasenowaku{
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 400px;
+  padding: 3%;
+}
+.line{
+  border-bottom: solid 2px white;
+}
+.sinnryoujikann{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5%;
+	padding: 10px;
+}
+
+h2{
+	font-size: 2.5rem;
+	color: white;
+}
+h3{
+	margin-bottom: 100px;
+	padding-top: 20px;
+	color: white;
+}
+
+
+
+.eigyoujikan{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.eigyoujikan tr{
+  border-bottom: solid 2px #add8e6;
+  cursor: pointer;
+}
+
+.eigyoujikan th,.eigyoujikan td{
+  text-align: center;
+  width:50px;
+  height: ;
+}
+.time{
+	width: 150px;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+.flex2{
+	display: flex;
+	justify-content: space-between;
+	width: 55%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.korona{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.fone3{
+	font-size: 2rem;
+	font-weight: 2;
+}
+.icon{
+	width: 100px;
+	height: 100px;
+}
+.button{
+	border: solid 3px #5bc8ac;
+	width: 60%;
+	background-color:#dcdcdc;
+	text-decoration: none;
+  text-align: center;
+  padding: 30px 0;
+  color: black;
+  font-size: 1rem;
+  border-radius: 5%;
+}
+.button:hover{
+	background-color: #c0c0c0;
+}
+.button p{
+	text-align: center;
+}
+.grid{
+	display: grid;
+  place-items: center;
+  gap: 26px;
+	grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  padding: 50px 0;
+}
+.menu{
+	text-decoration: none;
+}
+
+.rihabili{
+	display: flex;
+	justify-content: space-between;
+	background-image: url(rihabili.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	margin-top: 60px;
+	color: white;
+	padding: 30px;
+}
+.rihabili-text{
+	font-size: 2rem;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+.rihabili a{
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 5%;
+	color:white;
+	font-weight: bold;
+}
+.button-iti{
+	margin-top: 200px;
+}
+.kigou{
+	color: #db7093;
+	font-weight: bold;
+}
+.Btn{
+  border: 1px solid #5bc8ac;
+  margin: 0 auto;
+  position: relative;
+  width: 240px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  font-size: 12px;
+  transition: initial;
+  overflow: hidden;
+  text-decoration: none;
+}
+.Btn-Text{
+  color: #fff;
+  z-index: 1000;
+  transition: 0.6s ease all;
+  font-size: 1.5rem;
+}
+.Btn:hover .Btn-Text{
+  color: #5bc8ac;
+  transition: 0.6s ease all;
+}
+.Btn:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  transform: scale(0);
+  transition: 0.6s ease all;
+}
+.Btn:hover:before{
+  transform: scale(4.2);
+}
+
+
+
+
+.date{
+  font-size: 1rem;
+  color: #87ceeb;
+  font-weight: bold;
+}
+h4{
+	margin: 100px 0 10px 150px;
+}
+.koramu{
+	margin: 0 auto;
+  border: solid 2px #87ceeb;
+  width: 70%;
+  margin-bottom: 100px;
+}
+.koramu p{
+  padding: 10px;
+}
+h4:before {
+  content: '●';
+  color: white;
+  margin-right: 8px;
+}
+
+
+
+footer{
+  background-color: #5bc8ac;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+h4 {
+  color: #505050;
+  padding: 0.5em;
+  padding-right: 50px;
+  display: inline-block;
+  line-height: 1.3;
+  background: #add8e6;
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;
+  font-size: 1.5rem;
+}
+
+
+h5{
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+  color: white;
+  font-weight: bold;
+}
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+}
+.f-right{
+	width: 50%;
+	color: white;
+	margin-top: 50px;
+}
+.f-left{
+	width: 50%;
+	color: white;
+}
+.text{
+  font-size: 1.5rem;
+  margin-top: 50px;
+  color: white;
+}
+.text p{
+  padding: 20px 0;
+}
+.pri{
+	text-align: center;
+}
+.uketuke{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.pri{
+	color: white;
+}
+.f-left h1{
+	font-size: 1.8rem;
+	padding-top: 10px;
+}
+
+/*院長あいさつページ*/
+#dr .back{
+	background-image: url(doctor-g8f5f144de_1920.jpg);
+	background-size: cover;
+  height: 400px;
+}
+.dr-title{
+	background-color: rgba(0,0,0,0.5);
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 150px;
+	height: 400px;
+	color: white;
+	letter-spacing: 1rem;
+}
+.coment{
+	margin: 0 auto;
+	background-image: url(woman-gbf3e1e1fc_1280.jpg);
+	width: 900px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+.dr-title2{
+	margin: 0 auto;
+  border-bottom: solid 3px skyblue;
+  position: relative;
+  width: 20%;
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+.dr-title2:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #5bc8ac;
+  bottom: -3px;
+  width: 30%;
+}
+.coment{
+	padding-top: 130px;
+}
+.coment p{
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+}
+.coment2{
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	font-size: 1.2rem;
+}
+.top-button{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #696969;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	position:fixed;
+	left:50px;
+	bottom:50px;
+}
+.top-button:hover{
+	background-color: #5bc8ac;
+	color: black;
+}
+
+/*診療科ページ*/
+
+#sinryouka .back{
+	background-image: url(cat-g44693652f_1920.jpg);
+	background-size: cover;
+  height: 400px;
+}
+.sinryoukagrid{
+	margin: 0 auto;
+	display: grid;
+  gap: 26px;
+	grid-template-columns: repeat(3, minmax(240px,1fr));
+  padding: 50px 0;
+  width: 80%;
+}
+.g-item{
+	width: 200px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.sinryouka-title {
+  border-bottom: solid 3px #cce4ff;
+  position: relative;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.sinryouka-title:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #5472cd;
+  bottom: -3px;
+  width: 20%;
+}
+.icon2{
+	margin-left: 35px;
+}
+
+/*入院に関する案内ページ*/
+#hosritalization .back{
+	background-image: url(img/flower.jpg);
+	background-size: cover;
+  height: 400px;
+}
+.list-flex{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+ul.things{
+  position: relative;
+  padding: 15px 15px 15px 30px;
+  font: 14px/1.6 'arial narrow', sans-serif;
+  border: solid 2px #adcce8;
+  border-radius:8px;
+  color: #696969;
+  width:340px;
+  background: #fff;
+}
+ul.things:before{
+  content: "持ち物";  /* 好きな文字を記述 */
+  position: absolute;
+  display: block;
+  top: -15px;
+  left: 20px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #adcce8;
+}
+ul.things li{
+  font-weight: bold;
+}
+ul.things2{
+  position: relative;
+  padding: 15px 15px 15px 30px;
+  font: 14px/1.6 'arial narrow', sans-serif;
+  border: solid 2px #5bc8ac;
+  border-radius:8px;
+  color: #696969;
+  width:600px;
+  background: #fff;
+}
+ul.things2:before{
+  content: "入院手続き";  /* 好きな文字を記述 */
+  position: absolute;
+  display: block;
+  top: -15px;
+  left: 20px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #5bc8ac;
+}
+ul.things2 li{
+  font-weight: bold;
+}
+.room-back{
+	margin-top: 100px;
+	width: 700px;
+	height: 300px;
+	background-image: url(img/room2.jpg);
+	background-size: cover;
+	position: relative;
+	margin-bottom: 200px;
+}
+ul.room-list{
+  position: relative;
+  padding: 15px 15px 15px 30px;
+  font: 14px/1.6 'arial narrow', sans-serif;
+  border: solid 2px #5bc8ac;
+  border-radius:8px;
+  color: #696969;
+  width:550px;
+  background: #fff;
+}
+ul.room-list:before{
+  content: "部屋";  /* 好きな文字を記述 */
+  position: absolute;
+  display: block;
+  top: -15px;
+  left: 20px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #5bc8ac;
+}
+ul.room-list li{
+  font-weight: bold;
+}
+.room-text{
+	position: absolute;
+	left: 600px;
+	top: 100px;
+}
+
+/*来院される皆様へ*/
+#forcustomer .back{
+	background-image: url(img/for-top.jpg);
+	background-size: cover;
+  height: 400px;
+}
+.for-title-flex{
+	margin-top: 30px;
+	display: flex;
+}
+.for-title{
+	padding-left: 10px;
+	font-size: 2.5rem;
+}
+.kansen-text{
+	padding-left: 6%;
+}
+.forcustomergrid{
+	margin: 0 auto;
+	display: grid;
+  gap: 26px;
+	grid-template-columns: repeat(3, minmax(240px,1fr));
+  padding-top: 30px;
+  width: 80%;
+}
+.forcustomergrid-title {
+  border-bottom: solid 3px #cce4ff;
+  position: relative;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.forcustomergrid-title:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #5472cd;
+  bottom: -3px;
+  width: 20%;
+}
+
+/*当院について*/
+#about .back{
+	background-image: url(img/night-view-g39f78c402_1280.jpg);
+	background-size: cover;
+  height: 400px;
+}
+
+.linen {
+	background-color: #5bc8ac; /* 背景色 */
+	color: white;
+	overflow: hidden;
+	padding: 10px; /* 余白 */
+	position: relative;
+	font-size: 1.5rem;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.linen:before {
+	background-color: #adcce8; /* 円の色 */
+	border-radius: 50%;
+	content: '';
+	display: block;
+	opacity: 0.3; /* 円の不透明度 */
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	width: 200px; /* 円の幅 */
+	height: 200px; /* 円の高さ */
+}
+.linen-text{
+	font-size: 3rem;
+	text-align: center;
+	color: #696969;
+	text-shadow:-1px -1px 3px #5bc8ac;
+	font-style: italic;
+	margin-top: 50px;
+}
+.linen-setumei{
+	margin: 0 auto;
+	width: 750px;
+	font-size: 1.5rem;
+	padding-bottom: 20px;
+}
+.gaiyou th{
+	text-align: left;
+	background: #5bc8ac;
+  color: #fff;
+}
+.gaiyou{
+	border-collapse: collapse;
+  width: 100%;
+}
+.gaiyou th,
+.gaiyou td{
+	padding: 10px;
+  border: solid 1px #ccc;
+  box-sizing:border-box;
+}
+
+/*アクセス*/
+#access .back{
+	background-image: url(img/map-g496774d44_1280.jpg);
+	background-size: cover;
+  height: 400px;
+}
+.how{
+	border-bottom: 3px dashed #5bc8ac;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.access-flex{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.access-flex p{
+font-size: 1.2rem;
+}
+.station{
+	font-weight: bold;
+	color: #5bc8ac;
+}
+
+/*リハビリテーションご案内*/
+#rehabili .back{
+	background-image: url(img/thisisengineering-raeng-o6jUolZ7QJk-unsplash.jpg);
+	background-size: cover;
+  height: 400px;
+}
+.rehabilil-flex{
+ width: 800px;
+ display: flex;
+ margin: 0 auto;
+}
+.sa-kuru{
+	width: 300px;
+	height: 300px;
+}
+.rehabili-text{
+	padding-top: 50px;
+	font-size: 1.5rem;
+}
+
+ol {
+	margin: 0 auto;
+	width: 800px;
+  counter-reset:number;
+  list-style-type: none!important;
+  padding: 0.3em 0.8em;
+  border: solid 2px #5bc8ac;
+}
+ol li {
+  border-bottom: dashed 1px #5bc8ac;
+  position: relative;
+  padding: 0.5em 0.5em 0.5em 30px;
+  line-height: 1.5em;
+}
+ol li:before{
+  position: absolute;
+  counter-increment: number;
+  content: counter(number);
+  display:inline-block;
+  background: #5bc8ac;
+  color: white;
+  font-family: 'Avenir','Arial Black','Arial',sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+  border-radius: 50%;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+ol li:last-of-type {
+  border-bottom: none;
+}
+.renabili-li th{
+	text-align: left;
+	background: #5bc8ac;
+  color: #fff;
+}
+.renabili-li{
+	margin: 0 auto;
+	border-collapse: collapse;
+  width: 70%;
+}
+.renabili-li th,
+.renabili-li td{
+	padding: 10px;
+  border: solid 1px #ccc;
+  box-sizing:border-box;
+}
+/*モバイル版
+-------------------------------------------*/
+@media (max-width: 600px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}/*@media*/
