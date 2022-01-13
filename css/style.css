@@ -315,7 +315,10 @@ details[open] summary {
 .img-big:hover{
   transform:scale(2.0,2.0);
 }
-
+.design a{
+	font-size: 1.2rem;
+	border-bottom: solid 2px #696969;
+}
 
 
 
