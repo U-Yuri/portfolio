@@ -154,7 +154,7 @@
 }
 .about-text{
 	width: 600px;
-	height: 200px;
+	height: 350px;
 	background-color: rgba(255,255,0,0.3);
 	border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
 	position: absolute;
@@ -164,7 +164,7 @@
 }
 #about{
 	margin-top: 200px;
-	margin-bottom: 100px;
+	margin-bottom: 230px;
 	position: relative;
 }
 .hcj-img{
@@ -199,7 +199,6 @@
 	width: 20%;
 	text-align: center;
 }
-
 .skill-title:after {
   position: absolute;
   content: '';
@@ -210,6 +209,7 @@
   width: 0;
   height: 0;
 }
+
 
 
 
