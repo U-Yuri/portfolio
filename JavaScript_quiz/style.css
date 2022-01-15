@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+  background-image: url(student-gd4703c436_1280.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+h1{
+  padding: 30px;
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.wrapper{
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 30px 4%;
+  background-color: white;
+}
+.mt-3{
+  padding-top: 50px;
+  text-align: center;
+}
+.d-flex{
+  display: flex;
+  flex-direction: column;
+}
+.btn,
+.ml-1{
+  height: 50px;
+  text-align: left;
+  color: black;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 10px;
+}
+.btn:hover,
+.ml-1:hover{
+  background-color: #ffb6c1;
+  color: black;
+}
